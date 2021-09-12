@@ -1,0 +1,32 @@
+.input {
+  height: 50px;
+  width: 80%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+input {
+  background: none;
+  border: none;
+  margin-left: 12px;
+  flex: 1;
+  outline: none;
+}
+
+button {
+  margin-right: 8px;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  color: #000;
+}
+
+button:hover {
+  background-color: #e5e5e5;
+}
