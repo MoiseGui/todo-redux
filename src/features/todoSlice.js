@@ -18,12 +18,15 @@ const todoSlice = createSlice({
                 }
                 return todo;
             })
+        },
+        deleteTodo: (state, action) => {
+            state.todoList = state.todoList.filter(todo => todo.id !== action.payload)
         }
     }
 });
 
 export const {
-    saveTodo, setChecked
+    saveTodo, setChecked, deleteTodo
 } = todoSlice.actions
 
 export const selectTodoList = state => state.todos.todoList

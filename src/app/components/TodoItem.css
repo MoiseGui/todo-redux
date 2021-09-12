@@ -3,7 +3,7 @@
   align-items: center;
   width: 80%;
   background-color: white;
-  margin: 6px 4px;
+  margin: 6px;
   height: 40px;
   border-radius: 12px;
 }
@@ -14,4 +14,10 @@
 
 .todo__item--done {
   text-decoration: line-through;
+}
+
+.todo__item__delete {
+  cursor: pointer;
+  color: #ff0000;
+  background: transparent;
 }
